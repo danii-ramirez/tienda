@@ -68,14 +68,6 @@ header>a {
     color: white;
 }
 
-#footer-nav {
-    grid-area: footer-nav;
-}
-
-#footer-icon {
-    grid-area: footer-icon;
-}
-
 footer {
     margin-top: 20px;
     background-color: #d1a664;
@@ -89,7 +81,7 @@ footer {
 }
 
 .footer-menu-item {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .footer-menu-item>a {
@@ -119,7 +111,7 @@ section>article {
 .opening-hours-container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 90%;
     padding: 10px;
     position: relative;
     background-color: #c27b57;
@@ -165,6 +157,16 @@ section>article {
 .opening-hours-text {
     font-size: 15px;
     color: #fff;
+}
+
+@media (min-width: 768px) {
+    .footer-menu-item {
+        margin: 0 10px;
+    }
+
+    .opening-hours-container {
+        width: 60%;
+    }
 }
 
 @media (min-width: 1024px) {
