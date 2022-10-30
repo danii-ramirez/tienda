@@ -68,36 +68,25 @@ header>a {
     color: white;
 }
 
-.img-banner {
-    height: 300px;
+footer {
+    height: 80px;
+    width: 100vw;
+    background-color: #ffe7bf;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
-@media (min-width: 1024px) {
-    header {
-        display: grid;
-        grid-template-columns: 0.2fr auto;
-        grid-template-areas:
-            "logo menu";
-        align-items: center;
-        background-color: #ffe7bf;
-    }
+footer>div {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .nav-menu {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .nav-menu-item>a {
-        width: 100%;
-    }
-
-    #nav-button {
-        display: none;
-    }
-
-    .img-banner {
-        height: 500px;
-    }
+.img-banner {
+    height: 300px;
 }
 
 section {
@@ -161,10 +150,46 @@ section>article {
     color: #fff;
 }
 
+@media (min-width: 1024px) {
+    header {
+        display: grid;
+        grid-template-columns: 0.2fr auto;
+        grid-template-areas:
+            "logo menu";
+        align-items: center;
+        background-color: #ffe7bf;
+    }
+
+    .nav-menu {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-menu-item>a {
+        width: 100%;
+    }
+
+    #nav-button {
+        display: none;
+    }
+
+    .img-banner {
+        height: 500px;
+    }
+
+    .opening-hours-container {
+        width: 30%;
+    }
+}
+
 .text-center {
     text-align: center;
 }
 
 .d-none {
     display: none;
+}
+
+.b-color {
+    background-color: #ffe7bf;
 }
