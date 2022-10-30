@@ -114,10 +114,35 @@ section>article {
     display: flex;
     flex-direction: column;
     width: 60%;
+    padding: 10px;
+    position: relative;
+    background-color: #1e3446;
+    color: white;;
+}
+
+.opening-hours-background {
+    background-image: url(../img/background-opening-hours.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .1;
+}
+
+.opening-hours-border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .2;
+    border: 2px solid white;
+    margin: 10px;
 }
 
 .opening-hours {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .opening-hours-title {
@@ -132,6 +157,7 @@ section>article {
 
 .opening-hours-text {
     font-size: 15px;
+    color: #fff;
 }
 
 .text-center {
