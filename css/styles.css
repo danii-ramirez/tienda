@@ -64,7 +64,6 @@ header>a {
 }
 
 .nav-menu-item>a:hover {
-    /* font-size: 1.2rem; */
     background-color: #ffc978;
     color: white;
 }
@@ -99,6 +98,44 @@ header>a {
     .img-banner {
         height: 500px;
     }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>article {
+    margin: 15px 0;
+}
+
+.opening-hours-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.opening-hours {
+    margin: 5px 0;
+}
+
+.opening-hours-title {
+    text-align: start;
+    font-size: 20px;
+}
+
+.opening-hours-horary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opening-hours-text {
+    font-size: 15px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .d-none {
