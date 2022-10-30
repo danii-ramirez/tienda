@@ -31,6 +31,11 @@ header {
         "logo . button"
         "menu menu menu";
     align-items: center;
+    background-color: #ffe7bf;
+}
+
+header>a {
+    margin: 0 20px;
 }
 
 .nav-menu {
@@ -45,7 +50,6 @@ header {
     justify-content: center;
     height: 100%;
     width: 100%;
-    margin: 2px;
 }
 
 .nav-menu-item>a {
@@ -60,13 +64,14 @@ header {
 
 .nav-menu-item>a:hover {
     font-size: 1.2rem;
+    background-color: #ffc978;
+    color: white;
 }
 
 .d-none {
     display: none;
 }
 
-.container {
-    margin: 0 10px;
-    background-color: rebeccapurple;
+.img-banner {
+    height: 300px;
 }

@@ -6,3 +6,13 @@ function showMenu() {
         x.className = "nav-menu"
     }
 }
+
+function resizeWindow() {
+    var x = document.getElementById("nav-menu");
+    if (window.screen.width >= 1024) {
+        x.className = "nav-menu";
+    }
+    else {
+        x.className = "d-none";
+    }
+}
