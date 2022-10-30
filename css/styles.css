@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+}
+
+.container {
+    margin: 0 10px;
+    background-color: rebeccapurple;
+}
