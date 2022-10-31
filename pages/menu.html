@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,82 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>MR BEAST BURGER</title>
 </head>
-<body>
-    
+
+<body onresize="resizeWindow()">
+    <header>
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="logo" id="logo">
+        </a>
+
+        <ul id="nav-menu" class="d-none">
+            <li class="nav-menu-item">
+                <a href="#">Ordenar</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="./pages/menu.html">Menú</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#">Entrega de comida</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#">Contáctenos</a>
+            </li>
+        </ul>
+
+        <button type="button" id="nav-button" onclick="showMenu()">
+            <i class="bi bi-list"></i>
+        </button>
+    </header>
+
+    <main class="menu">
+        <h1 class="menu-title">Menú de MR BEAST BURGER</h1>
+
+        <span class="menu-item-title">Bebidas</span>
+
+        <div class="menu-item">
+            <img src="../img/coca-cola.jpg" alt="coca cola">
+            <div class="menu-item-text">
+                <span>Coca Cola</span>
+                <span>$100.00</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="../img/coca-cola-sin-azucar.jpg" alt="coca cola">
+            <div class="menu-item-text">
+                <span>Coca Cola sin Azucar</span>
+                <span>$100.00</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="../img/sprite.jpg" alt="coca cola">
+            <div class="menu-item-text">
+                <span>Sprite Lima Limón</span>
+                <span>$100.00</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="../img/fanta.jpg" alt="coca cola">
+            <div class="menu-item-text">
+                <span>Fanta naranja</span>
+                <span>$100.00</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="../img/schweppes.jpg" alt="coca cola">
+            <div class="menu-item-text">
+                <span>Schweppes Pomelo</span>
+                <span>$100.00</span>
+            </div>
+        </div>
+
+        <span class="menu-item-title">Hamburguesas</span>
+    </main>
+
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
