@@ -69,10 +69,12 @@ header>a {
 }
 
 footer {
+    height: 4vh;
     margin-top: 20px;
     background-color: #d1a664;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .footer-menu {
@@ -161,13 +163,12 @@ section>article {
 
 .menu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
     margin: 20px 10px;
     color: #4d4d4d;
 }
 
-.menu-title{
+.menu-title {
     width: 100%;
     display: block;
     text-align: center;
@@ -185,6 +186,7 @@ section>article {
     justify-content: space-between;
     width: 100%;
     margin: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .menu-item-text {
@@ -231,6 +233,14 @@ section>article {
 
     .opening-hours-container {
         width: 30%;
+    }
+
+    .menu {
+        margin: 20px 20px;
+    }
+
+    .menu-item {
+        width: 50%;
     }
 }
 
