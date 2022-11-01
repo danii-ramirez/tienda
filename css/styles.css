@@ -107,7 +107,8 @@ section {
 }
 
 section>article {
-    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .opening-hours-container {
@@ -195,6 +196,10 @@ section>article {
     width: 100%;
 }
 
+.menu-item-text>span {
+    padding: 15px;
+}
+
 @media (min-width: 768px) {
     .footer-menu-item {
         margin: 0 10px;
@@ -232,7 +237,7 @@ section>article {
     }
 
     .opening-hours-container {
-        width: 30%;
+        width: 35%;
     }
 
     .menu {
@@ -254,4 +259,10 @@ section>article {
 
 .b-color {
     background-color: #ffe7bf;
+}
+
+.border-round {
+    border: 2px solid #ffe7bf;
+    border-radius: 12px;
+    padding: 5px;
 }
