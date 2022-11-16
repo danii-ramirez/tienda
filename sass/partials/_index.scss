@@ -1,0 +1,77 @@
+@use './variables';
+
+.img-banner {
+    height: 300px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    article {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.opening-hours-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    position: relative;
+    background-color: #c27b57;
+    color: white;
+}
+
+.opening-hours-background {
+    background-image: url(../img/background-opening-hours.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .1;
+}
+
+.opening-hours-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .2;
+    border: 4px solid black;
+    margin: 10px;
+}
+
+.opening-hours {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.opening-hours-title {
+    text-align: start;
+    font-size: 20px;
+}
+
+.opening-hours-horary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opening-hours-text {
+    font-size: 15px;
+    color: #fff;
+}
+
+@media (min-width: variables.$screen-size-large) {
+    .img-banner {
+        height: 500px;
+    }
+
+    .opening-hours-container {
+        width: 35%;
+    }
+}

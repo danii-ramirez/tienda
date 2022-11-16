@@ -1,0 +1,34 @@
+@use './variables';
+
+footer {
+    height: 4vh;
+    margin-top: 20px;
+    background-color: variables.$backgroud-primary;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-menu {
+    @include variables.reset-list;
+    display: flex;
+}
+
+.footer-menu-item {
+    margin: 0 5px;
+
+    a {
+        @include variables.reset-a;
+        padding: 5px;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+@media (min-width: variables.$screen-size-medium) {
+    .footer-menu-item {
+        margin: 0 10px;
+    }
+}
